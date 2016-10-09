@@ -24,7 +24,7 @@ function step(phone_number) {
             casper.wait(500, step(phone_number));
         } else {
             casper.then(function() {
-              //this.capture("balance.png");
+                this.capture("screenshot.png");
 
                 // extract the fields
                 var balance = {
