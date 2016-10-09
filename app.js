@@ -3,7 +3,7 @@
 // configuration
 var CSV = "balance.csv";
 var PHONE_NUMBER = "1234567890";
-var VERBOSE = false;
+var VERBOSE = true;
 
 var fs = require("fs");
 var casper = require("casper").create();
