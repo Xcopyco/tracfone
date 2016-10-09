@@ -1,0 +1,29 @@
+{
+  "name": "tracfone",
+  "version": "0.0.1",
+  "description": "scrape tracfone balances",
+  "main": "app.js",
+  "dependencies": {
+    "casperjs": "^1.1.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryanmjacobs/tracfone.git"
+  },
+  "keywords": [
+    "tracfone",
+    "scrape",
+    "balance",
+    "phone"
+  ],
+  "author": "Ryan Jacobs",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ryanmjacobs/tracfone/issues"
+  },
+  "homepage": "https://github.com/ryanmjacobs/tracfone#readme"
+}
