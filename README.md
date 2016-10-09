@@ -8,7 +8,7 @@ I can't really think of a creative name right now, so I'm gonna stick with `trac
   "minutes": 895,
   "texts": 660,
   "data": 155.09,
-  "service_end_date": "01-04-2017",
+  "service_end_date": "2017-01-04",
   "phone_number": "1234567890"
 }
 ```
