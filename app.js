@@ -39,10 +39,11 @@ function step(phone_number) {
                     balance[key] = balance[key].split(": ")[1];
 
                     // parse numbers
-                    if (key !== "service_end_date") {
+                    if (key == "service_end_date") {
+                        balance[key] = iso_8601_date(balance[key]);
+                    } else {
                         balance[key] = parseFloat(balance[key]);
                     }
-
                 }
 
                 // tag phone number onto balance object
@@ -53,6 +54,11 @@ function step(phone_number) {
             });
         }
     };
+}
+
+function iso_8601_date(str) {
+    var f = str.split("-");
+    return [f[2], f[0], f[1]].join("-");
 }
 
 function write_to_csv(balance) {
